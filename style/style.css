@@ -1,0 +1,48 @@
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.text {
+    font-size: 1.5em;
+}
+
+.erro {
+    text-align: center;
+    font-size: 1.1em;
+    color: red;
+}
+
+.input-documento {
+    text-align: center;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+
+input[type=number] { 
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+.pesquisa-btn {
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.pesquisa-btn:active {
+    transform: scale(0.95);
+}
